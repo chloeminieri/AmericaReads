@@ -1,0 +1,696 @@
+
+/* body */
+body{
+  background-color: white;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 18;
+  height: 100%;
+}
+
+p{
+  border: 2px solid #f7c0cf;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px;
+  color: #002261;
+}
+
+a:link{
+  color: #002261;
+}
+a:visited{
+  color: #351e74;
+}
+
+/* Navigation bar */
+
+.version2{
+  display: none;
+}
+
+.area{
+  background-color: #70a9dc;
+  text-align: center;
+}
+.nav{
+  background-color: #70a9dc;
+  padding: 4px;
+  margin: 3px;
+  text-align: center;
+  justify-content: center;
+}
+.nav a{
+  color: #002261;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.dropbtn {
+  background-color: #f7c0cf;
+  color: #002261;
+  padding: 16px;
+  font-size: 20px;
+  font-family: "Consolas", Arial;
+  border: #e47995 4px outset;
+  border-radius: 25px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #002261;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #c3e3ff;}
+
+.dropdown:hover .dropdown-content {display: block; background-color: #002261;}
+
+.dropdown:hover .dropbtn {background-color: #bdd6ec;}
+
+
+/* Footer */
+footer{
+  background:#002261;
+  width: 100%;
+  padding: 4px;
+  margin: 0;
+}
+footer p{
+  background-color: transparent;
+  border: none;
+  color: #70a9dc;
+}
+
+/* Parallax */
+.banner{
+  border: #f7c0cf 4px solid;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #70a9dc;
+}
+
+.banner2{
+  border: #f7c0cf 4px solid;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #70a9dc;
+}
+
+/* Details */
+
+.interactivemap{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+
+.homescroll{
+  background-color: #bdd6ec;
+}
+
+.school{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage{
+color: #002261;
+background-color: #70a9dc;
+border: none;
+}
+
+#index_img{
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_schools{
+  padding: 30px;
+  text-align: center;
+  color: #002261;
+  border: none;
+  font-size: 24pt;
+  font-style: bold;
+}
+
+
+#summary{
+  border: none;
+  color: #002261;
+}
+
+#navimage{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+} 
+
+.greeting{
+  border: none;
+}
+/* Using grid 1*/
+
+.wrapper {
+  display: grid;
+  width: 80%;
+  grid-gap: 10px;
+  grid-template-columns: 25% 25%;
+  background-color: transparent;
+  margin-left: 10%;
+  }
+
+  .sec {
+      color: #002261;
+      border-radius: 10px;
+      padding: 5px;
+      border: 4px solid #002261;
+      text-align: center;
+      padding: 10px;
+      background-color: #70a9dc;
+  }
+
+  .a {
+    grid-column: 1 / span 4;
+    grid-row: 2 ;
+  }
+  .b {
+      grid-column: 1 / 5;
+      grid-row: 1;
+  }
+  .c {
+      grid-column: 1 / span 2;
+      grid-row: 3 ;
+  }
+  .d {
+      grid-column: 3 / span 2;
+      grid-row: 3 ;
+  }
+
+  .school_pics{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .pics{
+    width: 90%
+  }
+
+  /* Using Grid 2 */
+  .semesters_grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 45% 45%;
+    background-color: transparent;
+    justify-content: center;
+    }
+  
+    .sem {
+        color: #002261;
+        border-radius: 10px;
+        padding: 5px;
+        border: 4px solid #002261;
+        text-align: center;
+        padding: 10px;
+        background-color: #c3e3ff;
+    }
+
+    .note_grid{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 80%;
+      background-color: transparent;
+      justify-content: center;
+    }
+
+  /* Grouping Nine Images - Gallery */
+
+  .gallery{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery > img{
+    border: 4px #002261 solid;
+    margin: 8px;
+    width: 75%;
+    padding: 4px;
+  }
+
+  .galphoto{
+    height: 25%;
+  }
+
+  .gallery > img:hover{
+    border: 8px #f7c0cf solid;
+    box-shadow: 12px 12px 5px grey;
+  }
+
+    /* Using Flexbox */
+    .place{
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .flexbox{
+      display: flex;
+      margin: auto;
+      width: 90%;
+      flex-direction: column;
+    }
+    .description{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding: 8px;
+      border: 4px solid #002261;
+      border-radius: 2px;
+      background-color: #70a9dc;
+      margin: 4px;
+      width: 90%
+      
+    }
+    .mem_title{
+      font-weight: bold;
+      text-align: center;
+      background-color: #f7c0cf;
+    }
+  
+    
+/* Form */
+  form{
+    background-color: #70a9dc;
+    border: 4px solid #002261;
+    padding: 10px;
+    border-radius: 25px;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* jump to main */
+a.skip{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+a.skip:focus{
+  top:20px;
+  color: #002261;
+  text-decoration-style: solid;
+}
+
+.video{
+  display: block;
+  margin: auto;
+  width:300px;
+  height: 200px;
+}
+
+/* Twist Animation */
+.twist{
+  background-color: #f7c0cf;
+  padding: 20px;
+  color: #002261;
+  border-radius: 25px;
+  width: 18%;
+  display: block;
+  margin: auto;
+  animation-name: twist_animation;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes twist_animation{
+  from {
+    transform:rotate(0deg);
+}
+to {
+    transform:rotate(360deg);
+}
+}
+@keyframes twist_animation{
+  from {
+    transform:rotate(0deg);
+}
+to {
+    transform:rotate(360deg);
+}
+
+}
+
+
+/*Media query to handle reduced-motion*/
+
+@media screen and (prefers-reduced-motion: reduce) {
+  .twist{
+    animation: none;
+  }
+  .gallery > img:hover{
+    border: 4px #002261 solid;
+    box-shadow: none;
+  }
+}
+
+
+ /* Keyboard Accessible Flipcard  */
+.accessible_flipcard {
+  width: 240px;
+  height: 380px;
+  perspective: 1000px;
+  margin: auto;
+  }
+
+  .inside {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  }
+
+  .accessible_flipcard:hover .inside,
+  .accessible_flipcard:focus-within .inside,
+  .accessible_flipcard:active .inside,
+  .accessible_flipcard:focus .inside {
+  transform: rotateY(180deg);
+  }
+
+  
+  .first,
+  .second {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  }
+
+  .first{
+  border: 8px solid #002261;
+  background-color: #f7c0cf;
+  background-image: url('../images/blue.jpg');
+  border-radius: 25px;
+  color: #002261;
+  font-size: 15px;
+  line-height: 400px;
+  text-align: center;
+  }
+
+  .second{
+  border-radius: 25px;
+  background-color: #f7c0cf;
+  color: #002261;
+  transform: rotateY(180deg);
+  text-align: left;
+  border: 8px solid #002261;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  }
+
+
+
+  /* Tablet View */
+
+@media screen and (min-width: 745px){
+
+  /* Navigation */
+
+  #navimage{
+    width: 35%;
+    padding-bottom: 10px;
+  }
+  .area{
+    display: none;
+  }
+
+  .navigation{
+    padding: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+  .nav{
+    border: #002261 2px solid;
+    background-color: #bdd6ec;
+    width: 40%;
+    margin: auto;
+  }
+
+  .version2{
+    background-color: #70a9dc;
+    width: 100%;
+    display: block;
+  }
+
+  /*Parallax*/
+  .banner{
+    font-size: 18px;
+  }
+  
+  .banner2{
+    font-size: 18px;
+  }
+
+  /* Grouping 9 Images: Gallery */
+  .gallery{
+    flex-direction: row;
+  }
+  
+  .gallery > img{
+    width: 25%;
+  }
+
+
+  /* Flexbox Work Page */
+  .description{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Form */
+  form{
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+
+  /* Using grid*/
+
+.wrapper {
+  display: grid;
+  width: 90%;
+  grid-gap: 10px;
+  grid-template-columns: 25% 25%;
+  background-color: transparent;
+  margin: auto;
+  }
+
+  .a {
+    grid-column: 3 / span 2 ;
+    grid-row: 1 ;
+  }
+  .b {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+  }
+  .c {
+      grid-column: 1 / span 2;
+      grid-row: 3 ;
+  }
+  .d {
+      grid-column: 3 / span 2;
+      grid-row: 3 ;
+  }
+
+  .video{
+    display: block;
+    margin: auto;
+    width:600px;
+    height: 400px;
+  }
+
+  .twist{
+    width: 16%;
+  }
+
+  .interactivemap{
+    width: 40%;
+  }
+
+
+}
+
+
+
+/* Desktop View */
+
+@media screen and (min-width: 850px){
+  /* Navigation */
+  #navimage{
+    width: 20%;
+    padding-bottom: 10px;
+  }
+
+  .area{
+    display: none;
+  }
+
+  .navigation{
+    padding: 8px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+  .nav{
+    border: #002261 2px solid;
+    background-color: #bdd6ec;
+    width: 15%;
+  }
+
+
+  /* Using grid */
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 25% 25% 25%;
+  background-color: transparent;
+  justify-content: center;
+  }
+
+  .sec {
+      border-radius: 10px;
+      padding: 5px;
+      padding: 10px;
+  }
+
+  .a {
+      grid-column: 1 / 3;
+      grid-row: 1;
+  }
+  .b {
+      grid-column: 3 ;
+      grid-row: 1 / 3;
+  }
+  .c {
+      grid-column: 1 ;
+      grid-row: 2 ;
+  }
+  .d {
+      grid-column: 2;
+      grid-row: 2;
+  }
+
+  .school_pics{
+    padding-left: 18px;}
+
+  /* Grouping Nine Images - Gallery */
+
+  .gallery{
+    flex-direction: row;
+  }
+  
+  .gallery > img{
+    width: 25%;
+  }
+
+  /* Using Flexbox */
+  .flexbox{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .description{
+    width: 45%
+  }
+
+  /* Twist Animation */
+  .twist{
+    width: 9%;
+  }
+
+  /* Details */
+  .school{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .interactivemap{
+    width: 20%;
+  }
+  
+  /*Keyboard Accessible Flipcard */
+  .accessible_flipcard {
+    background-color: transparent;
+    width: 550px;
+    height: 300px;
+    perspective: 1000px; 
+    margin: auto;
+    }
+
+
+    .first{
+    color: #002261;
+    font-size: 24px;
+    line-height: 300px;
+    text-align: center;
+    }
+  
+  .video{
+    display: block;
+    margin: auto;
+    width:800px;
+    height: 400px;
+  }
+
+} 
